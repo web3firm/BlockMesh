@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "Displaying qklxsqf logo..."
-wget -O loader.sh https://raw.githubusercontent.com/ziqing888/loader/refs/heads/main/loader.sh && chmod +x loader.sh && ./loader.sh
-curl -s https://raw.githubusercontent.com/ziqing888/logo.sh/refs/heads/main/logo.sh | bash
+wget -O loader.sh https://raw.githubusercontent.com/FEdanish/BlockMesh/refs/heads/main/loader.sh && chmod +x loader.sh && ./loader.sh
+curl -s https://raw.githubusercontent.com/FEdanish/BlockMesh/refs/heads/main/logo.sh | bash
 sleep 2
 
 # Update and upgrade system packages
