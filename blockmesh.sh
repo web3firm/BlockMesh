@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "Displaying qklxsqf logo..."
-wget -O loader.sh https://raw.githubusercontent.com/FEdanish/BlockMesh/refs/heads/main/loader.sh && chmod +x loader.sh && ./loader.sh
-curl -s https://raw.githubusercontent.com/FEdanish/BlockMesh/refs/heads/main/logo.sh | bash
+wget -O loader.sh https://raw.githubusercontent.com/web3firm/BlockMesh/refs/heads/main/loader.sh && chmod +x loader.sh && ./loader.sh
+curl -s https://raw.githubusercontent.com/web3firm/BlockMesh/refs/heads/main/logo.sh | bash
 sleep 2
 
 # Update and upgrade system packages
@@ -36,7 +36,7 @@ mkdir -p target/release
 
 # Download and extract the latest BlockMesh CLI
 echo "Downloading and extracting BlockMesh CLI..."
-curl -L https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.358/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz -o blockmesh-cli.tar.gz
+curl -L https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.364/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz -o blockmesh-cli.tar.gz
 tar -xzf blockmesh-cli.tar.gz --strip-components=3 -C target/release
 
 # Verify extraction result
